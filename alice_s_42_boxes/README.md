@@ -7,3 +7,4 @@
 >> Bob is handling Alice a sequence of objects; Alice should store them in the magic boxes according to previous notes. At the same time, Carl is asking Alice for objects; Alice should take the object Carl is asking for from one box, and handle it to him.
 
 >> Write a program to simulate the behavior of Alice, Bob, and Carl. A text file named 'actions.txt' contains the actions performed by Bob and Carl, one per line, in the form "Bob gives a OBJECT" or "Carl takes a OBJECT". The program should check what happen, reporting a message if Alice is not able to respond correctly because either she can't store Bob's object in a box, or she can't give Carl the requested object because it's not available.
+(Polito exam)
