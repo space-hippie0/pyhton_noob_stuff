@@ -2,4 +2,4 @@
 
 >> Note: Munodi sequence is guaranteed to be finite.
 
->> Given the file seq.dat containing an unknown number of integer sequences, one per line, with number separated by spaces; write a Python program that check if the sequences are Munodi sequences and print the result on the screen.
+>> Given the file containing an unknown number of integer sequences, one per line, with number separated by spaces; write a Python program that check if the sequences are Munodi sequences and print the result on the screen.
