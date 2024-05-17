@@ -3,6 +3,7 @@ import random
 import os
 
 LOGFILE = "logfile.txt"
+HZNt = "----------------------------------------------"
 
 
 def addPostName(filename, postfix):
@@ -30,7 +31,6 @@ def encryptImage(filename: str) -> int:
                     (pixel[1] + random.randint(0, 255)) % 256,
                     (pixel[2] + random.randint(0, 255)) % 256
                 )
-
         encrypted_filename = addPostName(filename, "-e")
         image.save(encrypted_filename)
         logEncryption(encrypted_filename, key)
@@ -59,31 +59,42 @@ if __name__ == "__main__":
     while True:
         try:
             mode = input("<E>NCRYPT OR <D>ECRYPT (↵ to exit program) = ")
+            print(HZNt)
             mode = mode.upper()
 
             if mode == 'E' or mode == 'ENCRYPT':
-                filename = input("ENTER IMAGE NAME = ")
-                filename = os.path.join("images", filename)
+                filename = input("ENTER IMAGE NAME (WITH FULL PATH) = ")
                 key = encryptImage(filename)
+                print(HZNt)
                 print(f"KEY = {key}")
+                print(HZNt)
 
                 while True:
-                    delete_original = input("DO YOU WANT TO DELETE THE ORIGINAL? (Y/N) ").lower()
+                    delete_original = input("DO YOU WANT TO DELETE THE ORIGINAL? (Y/N) = ").lower()
+                    print(HZNt)
                     if delete_original in ['y', 'yes']:
                         os.remove(filename)
-                        print("Original file deleted.")
+                        print(HZNt)
+                        print("DELETION SUCCESS")
+                        print(HZNt)
                         break
                     elif delete_original in ['n', 'no']:
                         break
 
-
             elif mode == 'D' or mode == 'DECRYPT':
-                filename = input("ENTER IMAGE NAME = ")
-                filename = os.path.join("images", filename)
+                filename = input("ENTER IMAGE NAME (WITH FULL PATH) = ")
+                print(HZNt)
                 key = int(input("KEY = "))
                 decryptImage(filename, key)
+                print(HZNt)
                 print("DECRYPTION SUCCESS")
+                print(HZNt)
             elif mode == '':
-                exit('bye bye...\n')
+                exit(f'               ...BYE BYE...\n{HZNt}')
         except OSError as rte:
-            exit(f'sorry {rte}')
+            print(HZNt)
+            print('            >> TRY AGAIN ! <<')
+            print(HZNt)
+            print(rte)
+            print(HZNt)
+
