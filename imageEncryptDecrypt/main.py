@@ -17,7 +17,7 @@ def logEncryption(filename, key):
 
 def encryptImage(filename: str) -> int:
     with Image.open(filename) as image:
-        key = random.randint(1, 1000)  # Generate a random key
+        key = random.randint(1, 1000)
         random.seed(key)
 
         pixels = image.load()
@@ -63,12 +63,12 @@ if __name__ == "__main__":
 
             if mode == 'E' or mode == 'ENCRYPT':
                 filename = input("ENTER IMAGE NAME = ")
-                filename = os.path.join("images", filename)  # Add prefix
+                filename = os.path.join("images", filename)
                 key = encryptImage(filename)
                 print(f"KEY = {key}")
 
                 while True:
-                    delete_original = input("DO YOU WANT TO DELETE THE ORIGINAL? (y/n) ").lower()
+                    delete_original = input("DO YOU WANT TO DELETE THE ORIGINAL? (Y/N) ").lower()
                     if delete_original in ['y', 'yes']:
                         os.remove(filename)
                         print("Original file deleted.")
@@ -80,7 +80,7 @@ if __name__ == "__main__":
 
             elif mode == 'D' or mode == 'DECRYPT':
                 filename = input("ENTER IMAGE NAME = ")
-                filename = os.path.join("images", filename)  # Add prefix
+                filename = os.path.join("images", filename)
                 key = int(input("KEY = "))
                 decryptImage(filename, key)
                 print("DECRYPTION SUCCESS")
