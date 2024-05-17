@@ -1,2 +1,4 @@
 image-e.png, 578
-image1-e.png, 233
+image1-e.JPG, 233
+/Users/YOU/Desktop/image.png, 144 
+image-e-e.png, 969
