@@ -75,8 +75,7 @@ if __name__ == "__main__":
                         break
                     elif delete_original in ['n', 'no']:
                         break
-                    else:
-                        print("Invalid input. Please answer with 'y' or 'n'.")
+
 
             elif mode == 'D' or mode == 'DECRYPT':
                 filename = input("ENTER IMAGE NAME = ")
