@@ -3,7 +3,7 @@ import random
 import os
 
 LOGFILE = "logfile.txt"
-HZNt = 66*'-'
+HZNt = 66 * '-'
 
 
 def addPostName(filename, postfix):
