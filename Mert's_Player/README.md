@@ -6,6 +6,7 @@ Buttons:
 > Restart
 > Visuals
 > Quit
+> Buttons for Songs
 > +10sec
 > -10sec
 > Passed/Remaining Time
