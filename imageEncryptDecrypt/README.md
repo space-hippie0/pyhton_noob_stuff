@@ -7,7 +7,7 @@
 > * Provides the key for decryption
 >
 > 
-> * Stores each file name and key in logfile
+> * Stores each encrypted file name and key in logfile
 >
 > 
 > * Start with '/' for full path rather than the project directory
