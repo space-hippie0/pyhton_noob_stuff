@@ -50,12 +50,19 @@ Frequency (f)
 Time Shift (td)
 Rectangular Signal
 ``
+
+
+
+``
 A rectangular pulse signal with:
+
 ``
 Width (T)
 Time Shift (td)
 Explore other signals by selecting them from the UI and inputting the parameters!
 ``
+``
+
 ```
 🛠️ Customization & Contributions
 
