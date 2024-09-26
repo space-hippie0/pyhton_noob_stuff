@@ -12,16 +12,27 @@ Real-Time Plotting: High-quality signal visualization, utilizing Matplotlib, wit
 Multiple Signals Supported:
 
 📐 Rectangular Signal
+
 🔺 Triangular Signal
+
 🌊 Sine and Cosine Signals
+
 🌀 Complex Exponential Signal
+
 📈 Raised Cosine Signal
+
 📡 Sinc Signal
+
 ⏳ Unilateral Exponential Signal
+
 🎯 Gaussian Signal
+
 ⚡ Constant Unit Signal
+
 🎯 Dirac Delta Signal
+
 🚀 Getting Started
+
 ``
 ``
 🧰 Requirements:
