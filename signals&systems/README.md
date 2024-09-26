@@ -53,7 +53,7 @@ Rectangular Signal
 
 
 
-``
+
 A rectangular pulse signal with:
 
 ``
