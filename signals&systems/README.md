@@ -37,8 +37,7 @@ Multiple Signals Supported:
 
 ### 🚀 Getting Started
 
-``
-``
+
 🧰 Requirements:
 Python 3.x
 Required Libraries:
