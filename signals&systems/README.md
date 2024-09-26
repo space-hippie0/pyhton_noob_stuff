@@ -31,7 +31,7 @@ Multiple Signals Supported:
 
 🎯 Dirac Delta Signal
 
-🚀 Getting Started
+### 🚀 Getting Started
 
 ``
 ``
