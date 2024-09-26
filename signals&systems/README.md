@@ -80,12 +80,13 @@ Explore other signals by selecting them from the UI and inputting the parameters
 ``
 ``
 
-```
-🛠️ Customization & Contributions
 
+🛠️ Customization & Contributions
+```
 We welcome contributions! Feel free to fork this project, submit a PR, or create an issue for feature suggestions.
+```
 
 📄 License
-
+```
 This project is licensed under the MIT License.
 ```
