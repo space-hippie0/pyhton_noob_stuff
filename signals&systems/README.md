@@ -44,7 +44,7 @@ tkinter (Standard with Python)
 ``
 ``
 Install required libraries with:
-``
+
 ```
 pip install numpy
 pip install matplotlib
