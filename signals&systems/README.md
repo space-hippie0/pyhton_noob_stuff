@@ -10,6 +10,7 @@ Real-Time Plotting: High-quality signal visualization, utilizing Matplotlib, wit
 ``
 ``
 Multiple Signals Supported:
+
 📐 Rectangular Signal
 🔺 Triangular Signal
 🌊 Sine and Cosine Signals
