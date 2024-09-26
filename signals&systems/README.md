@@ -52,9 +52,11 @@ Install required libraries with:
 pip install numpy
 pip install matplotlib
 ```
-``
-``
+
+
+
 🎨 Signal Examples 🌟
+
 ``
 Sine Signal
 ``
