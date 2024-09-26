@@ -8,8 +8,12 @@ Interactive UI: Select your desired signal from a variety of common signals such
 Parameter Control: Dynamically input key signal parameters (Amplitude, Frequency, Time Shift, etc.) for real-time signal generation.
 Real-Time Plotting: High-quality signal visualization, utilizing Matplotlib, with clear axes and grid lines.
 ``
-``
+
+
+
 Multiple Signals Supported:
+
+
 
 📐 Rectangular Signal
 
