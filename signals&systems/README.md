@@ -1,6 +1,4 @@
-Here's the proper markdown version with all the correct `##`, backticks, and special characters for your `README.md` file:
 
----
 
 # 📡 **Signal Visualizer App** 🎨
 
@@ -72,7 +70,3 @@ We welcome contributions! Feel free to fork this project, submit a PR, or create
 
 ## 📄 **License**
 This project is licensed under the MIT License.
-
----
-
-This version is ready to be copy-pasted directly into a `README.md` file, with all markdown syntax in place!
